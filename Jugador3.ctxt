@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Jugador3
+comment0.text=\n\ Write\ a\ description\ of\ class\ ken\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=void\ act()
+comment2.params=
+comment2.target=void\ impacto()
+comment3.params=speed
+comment3.target=void\ movement(int)
+comment4.params=
+comment4.target=void\ Special()
+comment5.params=
+comment5.target=void\ mirrorHorizontally()
+comment6.params=left\ right
+comment6.target=void\ position(java.lang.String,\ java.lang.String)
+numComments=7

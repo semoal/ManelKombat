@@ -1,0 +1,97 @@
+int numImagen=1;
+    int numeroRandom = Greenfoot.getRandomNumber(6);
+    public MyWorld()
+    {    
+        // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
+        super(1000, 600, 1); 
+    }
+    public void act(){
+      randomFondo();
+      
+    }
+   public int randomFondo(){ //Metodo para poner un fondo aleatorio, que cogemos de la variable de clase numeroRandom
+    int aleatorio = numeroRandom;  
+    switch(aleatorio){
+        case 1:
+            fondoAnimado1();
+        break;
+        case 2: 
+            fondoAnimado2();
+        break;
+        case 3:
+            fondoAnimado3();
+        break;
+        case 4: 
+            fondoAnimado4();
+        break;
+        case 5: 
+            fondoAnimado5();
+        break;
+        case 6:
+            fondoAnimado6();
+        default:
+            fondoAnimado6();
+        break;
+    }    
+    return aleatorio;    
+    }
+    public void fondoAnimado1(){   
+           GreenfootImage background = new GreenfootImage("fondoPrimero/fondoPrimero-"+numImagen+".gif");
+           background.scale(getWidth(), getHeight());
+           setBackground(background);
+           Greenfoot.delay(10);  
+           numImagen +=1;
+           if(numImagen == 16){
+               numImagen = 1;               
+            }
+        } 
+    public void fondoAnimado2(){
+          GreenfootImage background = new GreenfootImage("fondoSegundo/fondoSegundo-"+numImagen+".gif");
+           background.scale(getWidth(), getHeight());
+           setBackground(background);
+           Greenfoot.delay(10);  
+           numImagen +=1;
+           if(numImagen == 8){
+               numImagen = 1;               
+            } 
+    }
+    public void fondoAnimado3(){
+        GreenfootImage background = new GreenfootImage("fondoTercero/frame-"+numImagen+".gif");
+        background.scale(getWidth(), getHeight());
+        setBackground(background);
+        Greenfoot.delay(10);
+        numImagen +=1;
+        if(numImagen == 24){
+            numImagen = 1;
+        }
+    }
+    public void fondoAnimado4(){
+        GreenfootImage background = new GreenfootImage("fondoCuarto/frame-"+numImagen+".gif");
+        background.scale(getWidth(), getHeight());
+        setBackground(background);
+        Greenfoot.delay(10);
+        numImagen +=1;
+        if(numImagen == 22){
+            numImagen = 1;
+        }
+    }
+    public void fondoAnimado5(){
+        GreenfootImage background = new GreenfootImage("fondoQuinto/frame-"+numImagen+".gif");
+        background.scale(getWidth(), getHeight());
+        setBackground(background);
+        Greenfoot.delay(10);
+        numImagen +=1;
+        if(numImagen == 48){
+            numImagen = 1;
+        }
+    }
+    public void fondoAnimado6(){
+        GreenfootImage background = new GreenfootImage("fondoSexto/frame-"+numImagen+".gif");
+        background.scale(getWidth(), getHeight());
+        setBackground(background);
+        Greenfoot.delay(10);
+        numImagen +=1;
+        if(numImagen == 16){
+            numImagen = 1;
+        }
+    }

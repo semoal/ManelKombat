@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Personaje
+comment0.text=\n\ Write\ a\ description\ of\ class\ Personaje\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=void\ act()
+comment10.params=player
+comment10.target=java.lang.String\ checkSpecial(java.lang.String)
+comment2.params=
+comment2.target=void\ gravity()
+comment3.params=me
+comment3.target=greenfoot.Actor\ checkactor(greenfoot.Actor)
+comment4.params=player
+comment4.target=java.lang.String\ checkLeft(java.lang.String)
+comment5.params=player
+comment5.target=java.lang.String\ checkRight(java.lang.String)
+comment6.params=player
+comment6.target=java.lang.String\ checkJump(java.lang.String)
+comment7.params=player
+comment7.target=java.lang.String\ checkCrouch(java.lang.String)
+comment8.params=player
+comment8.target=java.lang.String\ checkPunch(java.lang.String)
+comment9.params=player
+comment9.target=java.lang.String\ checkKick(java.lang.String)
+numComments=11

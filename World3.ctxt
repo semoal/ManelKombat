@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=World3
+comment0.text=\n\ Write\ a\ description\ of\ class\ World3\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=posicionX\ posicionX2
+comment1.target=World3(int,\ int)
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=int\ randomFondo()
+comment4.params=
+comment4.target=void\ fondoAnimado1()
+comment5.params=
+comment5.target=void\ fondoAnimado2()
+comment6.params=
+comment6.target=void\ fondoAnimado3()
+comment7.params=
+comment7.target=void\ fondoAnimado4()
+comment8.params=
+comment8.target=void\ fondoAnimado5()
+comment9.params=
+comment9.target=void\ fondoAnimado6()
+numComments=10
